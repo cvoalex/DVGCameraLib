@@ -1,0 +1,11 @@
+framework module DVGCamera {
+  umbrella header "DVGCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DVGCamera.Swift {
+    header "DVGCamera-Swift.h"
+    requires objc
+}
