@@ -207,12 +207,12 @@ SWIFT_CLASS("_TtC9DVGCamera9DVGCamera")
 
 
 
-
-
 @interface DVGCamera (SWIFT_EXTENSION(DVGCamera)) <GPUImageMovieWriterDelegate>
 - (void)movieRecordingCompleted;
 - (void)movieRecordingFailedWithError:(NSError * _Null_unspecified)error;
 @end
+
+
 
 
 
@@ -255,6 +255,12 @@ SWIFT_PROTOCOL("_TtP9DVGCamera17DVGCameraDelegate_")
 - (void)dvgCameraWithDidFailUpload:(HLSChunk * _Nonnull)llChunk data:(NSData * _Nonnull)data;
 - (void)dvgCameraWithDidFinishStream:(NSData * _Nonnull)m3u8;
 @end
+
+
+
+
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
